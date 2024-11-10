@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando a Radioatividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Explorando a Radioatividade</h1>
+            <p>Entenda os conceitos, aplicações e impactos da radiação no nosso mundo.</p>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="container">
+            <h2>O que é a Radioatividade?</h2>
+            <p>Radioatividade é um fenômeno natural em que certos átomos instáveis se transformam em outros átomos, liberando radiação como resultado de uma mudança em seu núcleo. Existem diferentes tipos de radiação, como alfa, beta e gama, que possuem diferentes características e impactos.</p>
+
+            <!-- Tópicos de Informações -->
+            <div class="topics">
+                <div class="topic" style="background-color: #90ee90;">
+                    <h3>Radioatividade Natural</h3>
+                    <p>A radiação natural é emitida por elementos presentes na natureza, como o urânio, radônio e potássio. Eles estão presentes em rochas, solos e até no ar. A maior parte da exposição humana à radiação natural vem do radônio, um gás radioativo que se origina no subsolo.</p>
+                </div>
+                <div class="topic" style="background-color: #add8e6;">
+                    <h3>Radioatividade Artificial</h3>
+                    <p>A radiação artificial é gerada por atividades humanas, como em usinas nucleares, em tratamentos médicos e em experimentos científicos. Uma forma importante de radiação artificial é a radiação utilizada em tratamentos de câncer, como a radioterapia.</p>
+                </div>
+                <div class="topic" style="background-color: #f08080;">
+                    <h3>Materiais Radioativos</h3>
+                    <p>Alguns materiais são radioativos e emitem radiação. Exemplos incluem o urânio, tório e césio-137, que podem ser usados em diversas indústrias, como energia e medicina. É importante notar que a manipulação inadequada desses materiais pode ser perigosa à saúde humana.</p>
+                </div>
+                <div class="topic" style="background-color: #f4a300;">
+                    <h3>Desastres Nucleares</h3>
+                    <p>Desastres como Chernobyl e Fukushima mostram os perigos da radiação quando não é controlada adequadamente. Esses incidentes tiveram impactos profundos no meio ambiente e na saúde humana. A lição desses eventos é a necessidade de controle rigoroso em usinas nucleares e outros centros de radiação.</p>
+                </div>
+            </div>
+
+            <!-- Quiz -->
+            <section class="quiz">
+                <h2>Quiz sobre Radioatividade</h2>
+                <form id="quiz-form">
+                    <fieldset>
+                        <legend>1. O que é radiação gama?</legend>
+                        <label><input type="radio" name="question1" value="a"> Radiação de partículas carregadas</label><br>
+                        <label><input type="radio" name="question1" value="b"> Radiação de alta energia em forma de luz</label><br>
+                        <label><input type="radio" name="question1" value="c"> Radiação de átomos instáveis liberando radiação alfa</label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>2. O que é radiação alfa?</legend>
+                        <label><input type="radio" name="question2" value="a"> Partículas de alta energia que podem atravessar o corpo humano</label><br>
+                        <label><input type="radio" name="question2" value="b"> Partículas grandes e pesadas que podem ser bloqueadas pela pele</label><br>
+                        <label><input type="radio" name="question2" value="c"> Radiação invisível que afeta o núcleo dos átomos</label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>3. A radiação beta é composta por:</legend>
+                        <label><input type="radio" name="question3" value="a"> Elétrons ou pósitrons</label><br>
+                        <label><input type="radio" name="question3" value="b"> Raios X</label><br>
+                        <label><input type="radio" name="question3" value="c"> Prótons</label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>4. Onde podemos encontrar radiação natural?</legend>
+                        <label><input type="radio" name="question4" value="a"> Apenas em usinas nucleares</label><br>
+                        <label><input type="radio" name="question4" value="b"> Em elementos presentes na crosta terrestre</label><br>
+                        <label><input type="radio" name="question4" value="c"> Somente no espaço</label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>5. O que é o radônio?</legend>
+                        <label><input type="radio" name="question5" value="a"> Um tipo de radiação gama</label><br>
+                        <label><input type="radio" name="question5" value="b"> Um gás radioativo encontrado no subsolo</label><br>
+                        <label><input type="radio" name="question5" value="c"> Um tipo de partícula alfa</label><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>6. Quais são os principais impactos da radiação sobre a saúde?</legend>
+                        <label><input type="radio" name="question6" value="a"> Pode causar câncer e falhas no sistema imunológico</label><br>
+                        <label><input type="radio" name="question6" value="b"> Melhora a resistência do corpo humano</label><br>
+                        <label><input type="radio" name="question6" value="c"> Não tem efeitos conhecidos sobre a saúde humana</label><br>
+                    </fieldset>
+
+                    <input type="submit" value="Ver Resultado">
+                </form>
+                <div id="quiz-result"></div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por <strong>Explorando a Radioatividade</strong></p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
